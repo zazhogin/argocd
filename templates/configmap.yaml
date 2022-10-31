@@ -6,4 +6,5 @@ data:
   log_level: INFO
   domain: {{ .Values.domain }}
   numbers: "{{- join "," .Values.numbers }}"
+  revisions: first
 
